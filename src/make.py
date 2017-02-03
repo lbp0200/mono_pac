@@ -187,13 +187,13 @@ def parse_args():
                         metavar='whiteList', help='Path of the white list')
     parser.add_argument('-i', dest='iplist', default='ipList', type=argparse.FileType('r'),
                         metavar='ipList', help='Path of the iprange list')
-    parser.add_argument('-p', dest='proxylist', required=True, metavar='proxyList',
+    parser.add_argument('-p', dest='proxylist', default='SOCKS5 127.0.0.1:1080', metavar='proxyList',
                         help='Proxy parameter in the pac file')
     parser.add_argument('-os', dest='size', action='store_true',
                         help='Optimize for size')
     parser.add_argument('-op', dest='perf', action='store_true',
                         help='Optimize for performance')
-    parser.add_argument('-o', dest='output', default=sys.stdout, type=argparse.FileType('w'),
+    parser.add_argument('-o', dest='output', default='proxy.pac', type=argparse.FileType('w'),
                         metavar='pacFile', help='Path of the output pac file')
 
     return parser.parse_args()
