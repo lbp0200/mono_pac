@@ -11,6 +11,8 @@
 pac file online 
 ```
 https://prudent-travels.000webhostapp.com/pac.php?a=SOCKS5&b=127.0.0.1:1080
+https://prudent-travels.000webhostapp.com/pac.php?a=SOCKS5&b=192.168.1.1:1080
+https://prudent-travels.000webhostapp.com/pac.php?a=PROXY&b=192.168.1.1:8123
 ```
 
 auto update online pac file 
