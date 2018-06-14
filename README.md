@@ -1,13 +1,18 @@
-生成PAC文件，做上网的智能路由。
+#生成PAC文件，做上网的智能路由
 
+[TOC]
+
+### 简介
 配合[prc-dns](https://github.com/lbp0200/prc-dns)解决DNS污染及CDN解析的问题，
 再加上[prc-sites](https://github.com/lbp0200/prc-sites)国内域名白名单，轻松区分
 国内外流量，实现智能上网。
 
+### 使用技巧
 内嵌自动更新脚本及PHP服务，可以在VPS上（例如[搬瓦工](https://polr.liuboping.com/9zuU9)、[Vultr](https://polr.liuboping.com/PrgTf)、
 [ChangeIP](https://polr.liuboping.com/changeip)、[PnzHost](https://polr.liuboping.com/pnzhost)）
 用crontab做定时更新，同时用PHP服务做在线PAC。
 
+### 详细
 pac file online 
 ```
 https://prudent-travels.000webhostapp.com/pac.php?a=SOCKS5&b=127.0.0.1:1080
