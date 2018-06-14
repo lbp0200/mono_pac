@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 BASEDIR=$(dirname "$0")
 cd "$BASEDIR"
+
+git pull
 rm delegated-apnic-latest && wget https://ftp.apnic.net/stats/apnic/delegated-apnic-latest
 python apnic2iplist.py > ../src/ipList
 cd ../src
