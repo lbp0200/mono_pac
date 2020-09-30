@@ -8,8 +8,7 @@
 国内外流量，实现智能上网。
 
 ### 使用技巧
-内嵌自动更新脚本及PHP服务，可以在VPS上（例如[搬瓦工](https://polr.liuboping.com/9zuU9)、[Vultr](https://polr.liuboping.com/PrgTf)、
-[ChangeIP](https://polr.liuboping.com/changeip)、[PnzHost](https://polr.liuboping.com/pnzhost)）
+内嵌自动更新脚本及PHP服务，可以在VPS上（例如[搬瓦工](https://bwh1.net/aff.php?aff=12296)、[Vultr](https://www.vultr.com/?ref=6879156)）
 用crontab做定时更新，同时用PHP服务做在线PAC。
 
 ### 详细
